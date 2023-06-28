@@ -1,0 +1,7 @@
+{
+    "name": "BCS Dhama Navigator",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "./.devcontainer/bootstrap.sh",
+  }
